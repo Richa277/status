@@ -1,14 +1,14 @@
-import Content from "./content"
-import Header from "./header"
+import Content from "./content";
+import Header from "./header";
 
-function Home(){
-    const online=false
-return(
+function Home() {
+  const online = false;
+  return (
     <div>
-    Home
-    <Header online={online}/>
-    <Content/>
+      Home
+      <Header online={online} />
+      <Content />
     </div>
-)
+  );
 }
-export default Home
+export default Home;
