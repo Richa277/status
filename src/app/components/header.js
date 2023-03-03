@@ -1,11 +1,11 @@
 import Logo from "./logo";
 import Profile from "./profile";
 
-function Header(props) {
+function Header() {
   return (
     <div>
       <Logo />
-      <Profile set={props.online} />
+      <Profile />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import Status from "./status";
 
-function Profile(props) {
+function Profile() {
   return (
     <div>
       Profile
-      <Status set={props.set} />
+      <Status />
     </div>
   );
 }
