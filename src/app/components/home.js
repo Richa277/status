@@ -1,12 +1,12 @@
 import Content from "./content";
+
 import Header from "./header";
 
 function Home() {
-  const online = false;
+  const status = false;
   return (
     <div>
-      Home
-      <Header online={online} />
+      <Header online={status} />
       <Content />
     </div>
   );
